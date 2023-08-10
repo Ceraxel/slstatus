@@ -69,7 +69,8 @@ static const struct arg args[] = {
     /* {netspeed_rx, "%sB/s  ", "wlo1"}, */
     {battery_state, "%s ", "BAT0"},
     {battery_perc, "%s%% | ", "BAT0"},
-    {run_command, " %2s | ", "pamixer --get-volume"},
+    /* {run_command, " %2s | ", "pamixer --get-volume"}, */
+    {run_command, "%s | ", "~/.local/bin/volume.sh"},
     {cpu_perc, " %s%% | ", NULL},
     {ram_perc, "󰍛 %s%% | ", NULL},
     {datetime, "%s", "%a %b %d | %r "},
