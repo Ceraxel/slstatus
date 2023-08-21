@@ -65,11 +65,11 @@ static const struct arg args[] = {
     /* function format          argument */
     //{ datetime, "%s",           "%F %T" },
     {wifi_perc, "󰒢:%3s%% ", "wlo1"},
-    {wifi_essid, "%s | ", "wlo1"},
+    {wifi_essid, "%s  ", "wlo1"},
     {battery_state, "%s ", "BAT0"},
-    {battery_perc, "%s%% | ", "BAT0"},
-    {run_command, "%s | ", "~/.local/bin/volume.sh"},
-    {cpu_perc, " %s%% | ", NULL},
-    {ram_perc, "󰍛 %s%% | ", NULL},
-    {datetime, "%s", "%a %b %d | %r "},
+    {battery_perc, "%s%%  ", "BAT0"},
+    {run_command, "%s  ", "~/.local/bin/volume.sh"},
+    {cpu_perc, " %s%%  ", NULL},
+    {ram_perc, "󰍛 %s%%  ", NULL},
+    {datetime, "%s", "%a %b %d  %r "},
 };
