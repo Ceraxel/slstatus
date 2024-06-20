@@ -67,7 +67,7 @@ static const struct arg args[] = {
     {battery_state, "%s ", "BAT0"},
     {battery_perc, "%s%%  ", "BAT0"},
     {run_command, "%s  ", "~/.local/bin/volume.sh"},
-    {cpu_perc, " %s%%  ", NULL},
-    {ram_perc, "󰍛 %s%%  ", NULL},
-    {datetime, "%s", "%a %b %d  %r "},
+    {cpu_perc, "^c#FEE56C^RAM ^c#FFFFFF^%s%%  ", NULL},
+    {ram_perc, "^c#FEE56C^CPU ^c#FFFFFF^%s%%  ", NULL},
+    {datetime, "%s", "| %b %d, %a | %r "},
 };
